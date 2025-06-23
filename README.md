@@ -24,10 +24,10 @@ This project applies ensemble machine learning techniques to predict heart failu
 - Predictions Comparison Heatmap
 - Model Accuracy Comparison Bar Chart
 
-## 🧪 Libraries Required
+## Cite
 
+N. N. Reddy, N. Lingadally, M. Shereesha and T. Shilpa, "A Comprehensive Ensemble Approach with Real-Time Performance Metrics for Heart Failure Prediction," 2024 First International Conference for Women in Computing (InCoWoCo), Pune, India, 2024, pp. 1-6, doi: 10.1109/InCoWoCo64194.2024.10863522.
+
+## 🧪 Libraries Required 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost imbalanced-learn
-
-## Cite
-N. N. Reddy, N. Lingadally, M. Shereesha and T. Shilpa, "A Comprehensive Ensemble Approach with Real-Time Performance Metrics for Heart Failure Prediction," 2024 First International Conference for Women in Computing (InCoWoCo), Pune, India, 2024, pp. 1-6, doi: 10.1109/InCoWoCo64194.2024.10863522.
