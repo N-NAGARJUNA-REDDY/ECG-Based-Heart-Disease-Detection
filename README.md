@@ -1,27 +1,33 @@
-# Heart Disease Prediction Using ECG Images
+# Heart Failure Detection using Ensemble Learning
 
-# Repository Status: ⚠️ Under Development – Details will be updated after paper publication.
+This project applies ensemble machine learning techniques to predict heart failure events based on clinical records. It utilizes models like Random Forest, XGBoost, MLP, and a Stacking Classifier.
 
-# 📖 About the Project
-This repository contains the code and models for a cutting-edge heart disease prediction system that utilizes Convolutional Neural Networks (CNNs) for feature extraction and Machine Learning classifiers for final predictions. The project aims to provide an efficient and accurate way to classify ECG images as either Normal or Diseased.
+## 📊 Dataset
 
-# 🚨 Disclaimer: 
-  The full implementation details, data, and results are omitted at this stage due to an ongoing publication process.
+- Source: [Heart Failure Clinical Records Dataset](https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data)
+- Size: 299 records
+- Target: `DEATH_EVENT` (1 - Event occurred, 0 - No event)
 
-# 🛠️ Key Features
-Feature Extraction: State-of-the-art CNN architecture for extracting meaningful features from ECG images.
-Classification: A hybrid ensemble model leveraging advanced ML classifiers for accurate predictions.
-Lightweight & Fast: Optimized for performance, ensuring real-time analysis.
+## ⚙️ Models Used
 
-# 📊 Results (To Be Updated)
-Results and performance metrics will be added after the paper is published.
+- Random Forest Classifier
+- XGBoost Classifier
+- MLP Classifier (Neural Network)
+- Stacking Classifier (Ensemble)
 
-# 🔒 License
-This project is released under a Proprietary License.
-Restrictions:
+## 📈 Features
 
-Redistribution, modification, or commercial use is prohibited without explicit permission.
-For details, refer to the LICENSE file.
+- Feature Importance Visualization (Random Forest)
+- Training and Validation Loss Curves (XGB, MLP)
+- Confusion Matrix
+- Accuracy & F1 Score Evaluation
+- Predictions Comparison Heatmap
+- Model Accuracy Comparison Bar Chart
 
-# 🤝 Contribution
-We welcome discussions, feedback, and contributions once the repository is finalized.
+## 🧪 Libraries Required
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost imbalanced-learn
+
+## Cite
+N. N. Reddy, N. Lingadally, M. Shereesha and T. Shilpa, "A Comprehensive Ensemble Approach with Real-Time Performance Metrics for Heart Failure Prediction," 2024 First International Conference for Women in Computing (InCoWoCo), Pune, India, 2024, pp. 1-6, doi: 10.1109/InCoWoCo64194.2024.10863522.
