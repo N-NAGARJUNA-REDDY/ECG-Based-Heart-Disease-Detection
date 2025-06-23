@@ -4,8 +4,8 @@ This project applies ensemble machine learning techniques to predict heart failu
 
 ## 📊 Dataset
 
-- Source: [Heart Failure Clinical Records Dataset](https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data)
-- Size: 299 records
+- Source: Heart_Failure_Clinical_Records.csv
+- Size: 5000 records
 - Target: `DEATH_EVENT` (1 - Event occurred, 0 - No event)
 
 ## ⚙️ Models Used
